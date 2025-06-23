@@ -152,12 +152,16 @@ class HapticWallpaperService : WallpaperService() {
         }
 
         private fun getRandomColor(): Int {
-            // Canlı ve parlak renkler için daha sınırlı aralıklar deneyelim
+            // Renkleri biraz daha pastel yapmak için daha yüksek bir minimum değer kullanın
+            // Örneğin, her bir RGB bileşeninin 150'den başlamasını sağlayın
+            val minColorValue = 55 // Bu değeri artırarak renkleri daha da açık (pastelleşmiş) yapabilirsiniz.
+            val maxColorValue = 255 // Maksimum değer 255 kalır.
+
             return Color.argb(
                 255,
-                Random.nextInt(100, 256), // Daha az koyu kırmızı
-                Random.nextInt(100, 256), // Daha az koyu yeşil
-                Random.nextInt(100, 256)  // Daha az koyu mavi
+                Random.nextInt(minColorValue, maxColorValue + 1),
+                Random.nextInt(minColorValue, maxColorValue + 1),
+                Random.nextInt(minColorValue, maxColorValue + 1)
             )
         }
 

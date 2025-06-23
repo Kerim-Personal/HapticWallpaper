@@ -10,6 +10,7 @@ android {
     defaultConfig {
         applicationId = "com.example.hapticwallpaper"
         minSdk = 26
+        //noinspection EditedTargetSdkVersion
         targetSdk = 35
         versionCode = 1
         versionName = "1.0"
