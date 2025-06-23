@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wallpaper
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:thumbnail="@drawable/ic_launcher_background"
+    android:description="@string/skeleton_wallpaper_description"
+    android:label="@string/skeleton_wallpaper_label"/>

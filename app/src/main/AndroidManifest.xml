@@ -67,6 +67,20 @@
                 android:resource="@xml/bubbles_wallpaper" />
         </service>
 
+        <service
+            android:name=".SkeletonWallpaperService"
+            android:enabled="true"
+            android:label="@string/skeleton_wallpaper_label"
+            android:permission="android.permission.BIND_WALLPAPER"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.service.wallpaper.WallpaperService" />
+            </intent-filter>
+            <meta-data
+                android:name="android.service.wallpaper"
+                android:resource="@xml/skeleton_wallpaper" />
+        </service>
+
     </application>
 
 </manifest>

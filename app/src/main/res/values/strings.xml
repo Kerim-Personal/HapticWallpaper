@@ -7,4 +7,6 @@
     <string name="flame_wallpaper_description">Ekrana dokunduğunuzda ateş çıkaran etkileyici bir canlı duvar kağıdı.</string>
     <string name="bubbles_wallpaper_label">Parlak Baloncuklar</string>
     <string name="bubbles_wallpaper_description">Ekrana dokunduğunuzda parlak baloncuklar oluşturur.</string>
+    <string name="skeleton_wallpaper_label">Sallanan İskelet</string>
+    <string name="skeleton_wallpaper_description">Kolunu ve bacaklarını sallayabildiğiniz interaktif bir iskelet.</string>
 </resources>
