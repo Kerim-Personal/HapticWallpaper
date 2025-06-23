@@ -2,5 +2,4 @@
 <wallpaper
     xmlns:android="http://schemas.android.com/apk/res/android"
     android:thumbnail="@drawable/ic_launcher_background"
-    android:description="@string/wallpaper_description"
-    android:settingsActivity="com.example.hapticwallpaper.SettingsActivity" />
+    android:description="@string/bubbles_wallpaper_description"/>

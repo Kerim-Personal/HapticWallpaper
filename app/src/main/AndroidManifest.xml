@@ -39,6 +39,34 @@
                 android:resource="@xml/wallpaper" />
         </service>
 
+        <service
+            android:name=".FlameWallpaperService"
+            android:enabled="true"
+            android:label="@string/flame_wallpaper_label"
+            android:permission="android.permission.BIND_WALLPAPER"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.service.wallpaper.WallpaperService" />
+            </intent-filter>
+            <meta-data
+                android:name="android.service.wallpaper"
+                android:resource="@xml/flame_wallpaper" />
+        </service>
+
+        <service
+            android:name=".BubblesWallpaperService"
+            android:enabled="true"
+            android:label="@string/bubbles_wallpaper_label"
+            android:permission="android.permission.BIND_WALLPAPER"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.service.wallpaper.WallpaperService" />
+            </intent-filter>
+            <meta-data
+                android:name="android.service.wallpaper"
+                android:resource="@xml/bubbles_wallpaper" />
+        </service>
+
     </application>
 
 </manifest>

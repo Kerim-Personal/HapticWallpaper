@@ -3,4 +3,8 @@
     <string name="wallpaper_description">Dokunmatik ve haptik geri bildirimli harika bir canlı duvar kağıdı.</string>
     <string name="main_activity_info">Haptic Wallpaper\'ı ayarlamak için aşağıdaki düğmeye dokunun. Ardından Canlı Duvar Kağıtları listesinden \'HapticWallpaper\'ı seçin.</string>
     <string name="set_wallpaper_button_text">Duvar Kağıdını Ayarla</string>
+    <string name="flame_wallpaper_label">Alev Efekti Duvar Kağıdı</string>
+    <string name="flame_wallpaper_description">Ekrana dokunduğunuzda ateş çıkaran etkileyici bir canlı duvar kağıdı.</string>
+    <string name="bubbles_wallpaper_label">Parlak Baloncuklar</string>
+    <string name="bubbles_wallpaper_description">Ekrana dokunduğunuzda parlak baloncuklar oluşturur.</string>
 </resources>

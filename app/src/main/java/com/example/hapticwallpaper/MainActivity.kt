@@ -16,11 +16,8 @@ class MainActivity : AppCompatActivity() {
         val setWallpaperButton: Button = findViewById(R.id.setWallpaperButton)
         setWallpaperButton.setOnClickListener {
             // Canlı duvar kağıdı seçme ekranını açan Intent
-            val intent = Intent(WallpaperManager.ACTION_CHANGE_LIVE_WALLPAPER)
-            intent.putExtra(
-                WallpaperManager.EXTRA_LIVE_WALLPAPER_COMPONENT,
-                ComponentName(this, HapticWallpaperService::class.java)
-            )
+            // Bu intent, telefondaki tüm canlı duvar kağıtlarını listeler.
+            val intent = Intent(WallpaperManager.ACTION_LIVE_WALLPAPER_CHOOSER)
             startActivity(intent)
         }
     }
